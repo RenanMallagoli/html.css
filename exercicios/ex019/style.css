@@ -1,0 +1,12 @@
+body{
+    font-family: "Work Sans";
+    font-size: 1em; /* font-size -- medidas melhor para usar = px ; em */
+    font-weight: 650; /* font-weight -- bold , normal , lighter , bolder */
+
+}
+
+h1{
+    font-family: serif;
+}
+
+

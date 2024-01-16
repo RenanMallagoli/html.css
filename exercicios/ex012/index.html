@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias</title>
+</head>
+<body>
+    <h1>imagem dinamicas</h1>
+    <p>Tente abrir esse site em varios dispositvos diferentes ou simplesmente diminue ou aumente o zoom do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/fotopequena.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/fotomedia.png" type="image/png">
+        <img src="imagens/fotogrande.png" alt="Imagem flexivel">
+    </picture>
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos aprender a produzir um audio em HTML5.</p>
+    <audio preload="auto" controls autoplay>
+       <source src="midia/barigadam.mp3" type="audio/mpeg">
+       <source src="midia/barigadam.mp3" type="audio/wav">
+       <source src="midia/barigadam.mp3" type="audio/ogg">
+    </audio> <!--MP3 xAV OGG-->
+</body>
+</html>

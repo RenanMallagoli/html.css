@@ -1,0 +1,34 @@
+body{
+    background: rgb(0, 0, 0);
+}
+body#enygma{
+    background: black;
+}
+body#Griffith{
+    background: rgb(141, 168, 194);
+}
+body#Hantengu{
+    background: rgb(110, 24, 2);
+}
+body#Gyokko{
+    background: rgb(115, 129, 145);
+}
+h1{
+    color: white; text-align: center;
+    font-size: 30pt;
+}
+a#enygma{
+    padding-left: 600px;
+}
+iframe{
+    padding-left: 670px;
+    padding-top: 100px;
+}
+a#e{
+    padding-left: 930px;
+    color: white;
+    font-size: 18pt;
+}
+a#han{
+    padding-left: 600px;
+}
