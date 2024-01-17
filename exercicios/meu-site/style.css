@@ -86,3 +86,81 @@ div.Nami > p{
     justify-content: center;
 }
 
+div.zoro{
+    background-color: #0CEDAA;
+    margin: 10px;
+    border-radius: 14px 0px 0px 44px;
+    margin-right: auto;
+    height: 300px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+div.Sanji{
+    background-color: yellow;
+    margin: 10px;
+    border-radius: 14px 0px 0px 44px;
+    margin-right: auto;
+    height: 300px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+div.usopp{
+    background-color: orange;
+    margin: 10px;
+    border-radius: 14px 0px 0px 44px;
+    margin-right: auto;
+    height: 300px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+div.robin{
+    background-color: purple;
+    margin: 10px;
+    border-radius: 14px 0px 0px 44px;
+    margin-right: auto;
+    height: 300px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+div.chopper{
+    background-image: linear-gradient(to right, var(--cor3), pink);
+    margin: 10px;
+    border-radius: 14px 0px 0px 44px;
+    margin-right: auto;
+    height: 300px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+div.franky{
+    background-color: #00B2ED;
+    margin: 10px;
+    border-radius: 14px 0px 0px 44px;
+    margin-right: auto;
+    height: 300px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+div.franky > p{
+    display: inline;
+    position: absolute;
+}
+
+div.brook{
+    background-color: gray;
+    margin: 10px;
+    border-radius: 14px 0px 0px 44px;
+    margin-right: auto;
+    height: 300px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+div.brook > p{
+    text-align: right;
+}
+
+
