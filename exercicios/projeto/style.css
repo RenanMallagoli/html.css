@@ -2,11 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Caveat:wght@500&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@500&display=swap');
+
 
 
 :root{
     --fonte1: 'Caveat' , cursive;
     --fonte2: 'Archivo Black', sans-serif;
+    --fonte3: 'Sora', sans-serif;
 }
 
 *{
@@ -14,36 +17,41 @@
     padding: 0px;
 }
 
-body{
-    height: 97vh;
-    min-width: 500px;
+html , body{
+    min-height: 100vh;
+    max-width: 100vw;
 }
 
 header{
     position: relative;
     background-color: black;
-    height: 200px;
 }
+
 header > h1{
     color: white;
     text-align: center;
-    font-size: 5em;
+    font-size: 10vw;
     padding-top: 40px;
-    font-family: var(--fonte2)
+    font-family: var(--fonte2);
+    font-variant: small-caps;
 }
 header > p{
     color: white;
     text-align: center;
+    padding-bottom: 15px;
+
 }
-main  p{
-    width: 400px;
-    line-height: 80px;
+p{
     padding: 20px;
-    font-size: 3em;
-    font-family: 'Caveat' , cursive;
-    font-weight: bolder;
+    font-family: var(--fonte3)
 }
 
+article{
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    font-size: 3.5vw;
+    margin: 10px;
+}
 
 article.seg{
 background-image: url(https://professorguanabara.github.io/projeto-cordel/imagens/background001.jpg);
@@ -54,28 +62,21 @@ background-size: cover;
 }
 
 p.seg{
-    width: 400px;
-    line-height: 80px;
     padding: 20px;
-    font-size: 3em;
-    font-family: 'Caveat' , cursive;
-    font-weight: bolder;
+    font-weight: bold;
     color: white;
     background-color: rgba(128, 128, 128, 0.24);
     border-radius: 10px;
     margin: 10px;
+    display: inline-block;
 }
 article.ter{
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 p.ter{
-    width: 400px;
-    line-height: 80px;
     padding: 20px;
-    font-size: 3em;
-    font-family: 'Caveat' , cursive;
-    font-weight: bolder;
+    font-weight: bold;
 }
 article.quar{
     background-image: url(https://professorguanabara.github.io/projeto-cordel/imagens/background002.jpg);
@@ -85,19 +86,16 @@ article.quar{
     background-attachment: fixed;
 }
 p.quar{
-    width: 400px;
-    line-height: 80px;
     padding: 20px;
-    font-size: 3em;
-    font-family: 'Caveat' , cursive;
-    font-weight: bolder;
+    font-weight: bold;
     color: white;
     background-color: rgba(128, 128, 128, 0.637);
     border-radius: 10px;
     margin: 10px;
+    display: inline-block;
 }
 article#sex{
-    padding-top: 100px;
+    padding-top: 60px;
 }
 footer{
     color: white;
@@ -106,4 +104,13 @@ footer{
     padding: 15px;
     font-size: 1.4em;
     letter-spacing: 4px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+
 }
