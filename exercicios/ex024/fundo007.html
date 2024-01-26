@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+    <style>
+        #container{
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            position: relative;/*usado no elemento pai(container)*/
+            height: 96vh;
+            padding: 10px;
+            background-color: purple;
+        }
+        #conteudo{
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            position: absolute; /*usado no elemento filho(conteudo),permite modificar o top - left - right - bottom*/
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+
+            left: 50%; /*distancia da esquerda*/
+            top: 50%;/*distancia do topo*/
+
+            transform: translate(-50%, -50%);/*modifica a posição do elemento em coordenadas*/
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>
