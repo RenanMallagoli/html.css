@@ -39,11 +39,13 @@ header > p{
     color: white;
     text-align: center;
     padding-bottom: 15px;
+    line-height: 2px;
 
 }
 p{
     padding: 20px;
-    font-family: var(--fonte3)
+    font-family: var(--fonte3);
+    line-height: 7vw;
 }
 
 article{
@@ -57,8 +59,8 @@ article.seg{
 background-image: url(https://professorguanabara.github.io/projeto-cordel/imagens/background001.jpg);
 background-position: right center;
 background-attachment: fixed;
-background-repeat: no-repeat;
 background-size: cover;
+box-shadow: inset 6px 6px 13px 0px black;
 }
 
 p.seg{
@@ -69,21 +71,19 @@ p.seg{
     border-radius: 10px;
     margin: 10px;
     display: inline-block;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.432);
 }
-article.ter{
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
+
 p.ter{
-    padding: 20px;
-    font-weight: bold;
+    padding-bottom: 5vh;
 }
+
 article.quar{
     background-image: url(https://professorguanabara.github.io/projeto-cordel/imagens/background002.jpg);
     background-position: right center;
     background-size: cover;
-    background-repeat: no-repeat;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.432);
 }
 p.quar{
     padding: 20px;
@@ -93,9 +93,9 @@ p.quar{
     border-radius: 10px;
     margin: 10px;
     display: inline-block;
-}
-article#sex{
-    padding-top: 60px;
+    min-width: 400px;
+    max-width: 1000px;
+    text-shadow: 1px 1px 0px black;
 }
 footer{
     color: white;
