@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Completa</title>
+    <style>
+        body{
+            font: Arial;
+        }
+        table{
+            border-collapse: collapse;
+            height: 400px;
+            width: 800px;
+            margin: auto;
+        }
+        th , td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            font-size: 1.2em;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Dados de filmes</caption>
+        <thead>
+            <tr>
+                <th>
+                    Grupos
+                </th>
+                <th>
+                    Nome
+                </th>
+                <th colspan="3">
+                    Filmes
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3">Mulheres</th>
+                <td>Ana Maria Santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Clara Amorim</td>
+                <td>Liga da Justiça</td>
+                <td>Sorria</td>
+                <td>Amnesia</td>
+            </tr>
+            <tr>
+                <td>Vitoria Souza</td>
+                <td>Maze Runner</td>
+                <td>Minha mãe é uma peça</td>
+                <td>La La Land</td>
+            </tr>
+            <tr>
+                <th rowspan="3">Homens</th>
+                <td>Carlos Eduardo</td>
+                <td>Harry Poter</td>
+                <td>Percy Jackson</td>
+                <td>Pokemon</td>
+            </tr>
+            <tr>
+                <td>André Motta</td>
+                <td>Demolidor</td>
+                <td>Invocação do Mal 2</td>
+                <td>Até que a Sorte nos separe</td>
+            </tr>
+            <tr>
+                <td>João Pedro</td>
+                <td>Senhor dos Anéis</td>
+                <td>Annabele</td>
+                <td>Oppenheimer</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
