@@ -5,15 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iframe
     </title>
+    <style>
+        iframe{ /*CSS é soberana*/
+            height: 400px;
+            width: 400px;
+         
+        }
+    </style>
 </head>
 <body>
     <h1>Testando o uso de um iframe</h1>
     <p>Acessando o site do
-        
-        <iframe src="https://www.cursoemvideo.com" frameborder="0">
-
+        <!--Tamanho padrão do iframe - 300x150-->
+        <iframe src="https://www.cursoemvideo.com" frameborder="0" height="500" scrolling="auto">
         </iframe>
 
          para aprender a programar</p>
+         <p>o repositório do Guanabara
+
+            <iframe src="https://gustavoguanabara.github.io" frameborder="0"></iframe>
+
+            Também é bem legal!
+         </p>
 </body>
 </html>
