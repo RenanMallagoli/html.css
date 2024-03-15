@@ -9,13 +9,16 @@
 <body>
     <header>
      <h1>Meu site</h1>
-     <menu>
+     <svg  onclick="clickmenu()" id="burguer" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
+        <path d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z"></path>
+        </svg>
+     <menu id="menu">
         <ul>
             <li><a href="#">Opção 1</a></li>
-            <li><a href=""></a>Opção 2</li>
-            <li><a href=""></a>Opção 3</li>
-            <li><a href=""></a>Opção 4</li>
-            <li><a href=""></a>Opção 5</li>
+            <li><a href="#">Opção 2</a></li>
+            <li><a href="#">Opção 3</a></li>
+            <li><a href="#">Opção 4</a></li>
+            <li><a href="#">Opção 5</a></li>
         </ul>
      </menu>
     </header>
@@ -29,5 +32,15 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat iste est perspiciatis, dicta voluptatum animi quo veritatis quaerat repellendus iusto! Dolore iure fugit nobis cumque saepe quam error blanditiis doloremque! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus necessitatibus eveniet esse molestiae illum dicta illo assumenda repellat, id nisi ex at maiores ab cum doloremque deserunt consequatur quibusdam incidunt.</p>
         </article>
     </main>
+    <script>
+        function clickmenu(){
+            if (menu.style.display == 'block'){
+                menu.style.display ='none'
+            }
+            else{
+                    menu.style.display = 'block'
+                }
+        }
+    </script>
 </body>
 </html>
