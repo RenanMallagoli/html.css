@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
      <h1>Meu site</h1>
      <svg  onclick="clickmenu()" id="burguer" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
@@ -33,6 +34,16 @@
         </article>
     </main>
     <script>
+        function mudouTamanho(){
+            if (window.innerWidth >= 768){
+                menu.style.display = 'block'
+            }
+            else{
+                menu.style.display = 'none'
+            }
+        }
+
+
         function clickmenu(){
             if (menu.style.display == 'block'){
                 menu.style.display ='none'

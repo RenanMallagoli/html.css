@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+
+:root{
+    --cor1:#4943F0;
+    --cor2:#BA43F0;
+    --cor3:#8243F0;
+    --cor4:#4374F0;
+    --cor5:#EF1CE8;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: var(--cor4);
+}
+
+header{
+    background-color: #4943F0;
+    padding: 40px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.356);
+}
+
+header h1{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px 100px 10px;
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 130px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.664);
+}
+
+label{
+    font-weight: bold;
+    color: #4943F0;
+    text-shadow: #EF1CE8;
+    font-size: 1.5em;
+}
+
+input{
+    width: 200px;
+    height: 30px;
+}
+
+h2{
+    position: relative;
+    top: 35px;
+    padding-top: 15px;
+    font-size: 3em;
+    color: black;
+    text-shadow: 2px 2px 3px #8243f03a;
+}
+
+
+div#usuario{
+    padding: 100px 10px 10px 10px;
+}
+div#senha{
+    padding: 40px 10px 10px 10px;
+}
+#bot{
+    background-color: #8243F0;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    border-radius: 5px;
+    margin: 30px;
+    width: 170px;
+    height: 50px;
+}
+
