@@ -39,7 +39,7 @@ section{
     padding: 10px 10px 100px 10px;
     background-color: white;
     width: 400px;
-    height: 400px;
+    height: 570px;
     margin: auto;
     margin-top: 130px;
     border-radius: 10px;
@@ -56,30 +56,23 @@ label{
 input{
     width: 200px;
     height: 30px;
-    
+    margin: 40px 10px 10px 10px;
 }
 
 h2{
     position: relative;
     top: 35px;
     padding-top: 15px;
-    font-size: 3em;
+    font-size: 2.5em;
     color: black;
     text-shadow: 2px 2px 3px #8243f03a;
 }
 
-
-div#usuario{
-    padding: 100px 10px 10px 10px;
-}
-div#senha{
-    padding: 40px 10px 10px 10px;
-}
 #bot{
     background-color: #8243F0;
     color: white;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.4em;
     border-radius: 5px;
     margin: 30px;
     width: 170px;
@@ -91,9 +84,4 @@ div#senha{
     height: 55px;
     transition: ease-in 0.2s;
 }
-a{
-    font-size: 0.8em;
-    padding-top: 2px;
-}
-
 
